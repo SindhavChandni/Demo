@@ -2,7 +2,7 @@ os: linux
 language: python
 sudo: false
 script:
-	- python main.py
+	-  python main.py
 
 after success:
-	-bash <(curl -s https://codecov.io.bash)
+	- bash <(curl -s https://codecov.io.bash)
