@@ -4,4 +4,5 @@ sudo: false
 script:
 	- python main.py
 
-
+after success:
+	-bash <(curl -s https://codecov.io.bash)
